@@ -37,13 +37,13 @@ class DBTwitter {
     throw new Error("Method not implemented.");
   }
 
-  async updateTweet(params: {
+  async updateTweet(tweet: {
     _id: number;
     user_name?: string;
     gender?: string;
     tweet?: string;
     spam_level?: number;
-  }) {
+  }): Promise<void> {
     throw new Error("Method not implemented.");
   }
 }
